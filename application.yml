@@ -29,3 +29,23 @@ plugins:
       - WEB
       - MWEB
       - TVHTML5_SIMPLY_EMBEDDED_PLAYER
+
+    cookies:
+      file: cookies.txt
+
+logging:
+  level:
+    root: INFO
+    lavalink: INFO
+    dev.lavalink.youtube: INFO
+
+metrics:
+  prometheus:
+    enabled: false
+
+sentry:
+  dsn: ""
+
+server:
+  error:
+    include-message: always
