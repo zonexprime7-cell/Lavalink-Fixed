@@ -25,19 +25,19 @@ plugins:
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
 
-    cookies:
-      file: cookies.txt
+    oauth:
+      enabled: true
 
     clients:
-      - WEB
-      - MWEB
-      - TVHTML5_SIMPLY_EMBEDDED_PLAYER
+      - ANDROID
+      - TVHTML5EMBEDDED
+      - WEBEMBEDDED
 
 logging:
   level:
     root: INFO
     lavalink: INFO
-    dev.lavalink.youtube: INFO
+    dev.lavalink.youtube: DEBUG
 
 metrics:
   prometheus:
