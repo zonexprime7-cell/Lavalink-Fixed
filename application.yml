@@ -3,7 +3,7 @@ server:
 
 lavalink:
   plugins:
-    - dependency: "dev.lavalink.youtube:youtube-plugin:1.16.0"
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.1"
 
   server:
     password: ${LAVALINK_PASSWORD:youshallnotpass}
@@ -20,6 +20,7 @@ lavalink:
 plugins:
   youtube:
     enabled: true
+
     allowSearch: true
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
@@ -27,5 +28,4 @@ plugins:
     clients:
       - WEB
       - MWEB
-      - TVHTML5EMBEDDED
-      - ANDROID
+      - TVHTML5_SIMPLY_EMBEDDED_PLAYER
