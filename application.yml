@@ -29,9 +29,9 @@ plugins:
       enabled: true
 
     clients:
-      - ANDROID
-      - TVHTML5EMBEDDED
-      - WEBEMBEDDED
+      - TVHTML5_SIMPLY_EMBEDDED_PLAYER
+      - MWEB
+      - WEB
 
 logging:
   level:
